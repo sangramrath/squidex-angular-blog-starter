@@ -1,5 +1,5 @@
 [build]
-  command = "npm run config -- --environment=prod && ng build"
+  command = "npm run build"
 
 [template.environment]
   SQUIDEX_URL= "Enter Squidex URL"
