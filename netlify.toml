@@ -1,0 +1,8 @@
+[build]
+  command = "npm run config -- --environment=prod && ng build"
+
+[template.environment]
+  SQUIDEX_URL= "Enter Squidex URL"
+  SQUIDEX_APPNAME= "Enter Squidex app name"
+  SQUIDEX_CLIENTID= "Enter Client ID for the app"
+  SQUIDEX_CLIENTSECRET= "Enter Client Secret for the app"
